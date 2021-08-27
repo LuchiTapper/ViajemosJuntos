@@ -1,0 +1,162 @@
+* {margin: 0;
+padding: 0;}
+
+
+/*header*/
+.nav { 
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 1.2rem;
+color: black;
+
+}
+
+/*css de Index*/
+
+.BackIndex {width: 100%;
+    height: 1000px;
+    background-image: url(../img/_DSC0940.JPG);
+    background-repeat: no-repeat;
+    background-position: center;}
+
+
+.nav ul { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    }
+
+.nav ul li {
+    list-style-type: none;
+    list-style-position: inside;
+    background-color: white;
+    border-radius: 10%;    
+    margin: 5px;
+    padding: 5px;
+  }
+
+.nav ul li a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: grey;
+    text-decoration: none;}
+
+  /*main*/
+.main {    
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    color: rgb(172, 78, 78) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+
+}
+
+.intro { margin-top: 20px;
+    background-color: rgba(250,250,250,.5);
+    width: 570px;
+    padding: 30px; 
+    font-size: 1.5rem;
+    border-radius: 10%;
+    border: grey solid 1px;
+    color: black;
+    font-weight: bold;
+}
+.intro a {
+     color: rgb(145, 57, 57);
+    }
+
+.intro a:hover { color:grey;                 
+                 text-decoration: none;}
+
+/*css de encuesta*/
+#BackEncuesta0 {
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/IMG_3982.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#BackEncuesta1 {
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/_DSC0397b.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#BackEncuesta2 { 
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/IMG_5696b.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.Encuesta {
+    color:black;
+    font-weight: bold;
+  
+    }
+
+.Encuesta article { margin: 10px;
+         padding: 3px;
+         background-color: rgb(255, 246, 212, 0.7);
+         }
+
+.Encuesta input {
+         border-radius: 10%;
+         background-color: rgba(250,250,250,.7);
+         height: 30px;
+         color:brown;
+         font-weight: bold;
+    
+    }
+
+
+
+.DOM {
+        margin-top: 60px;
+        background-color: rgba(250,250,250,.8);
+        width: 350px;
+        padding: 30px; 
+        font-size: 1.5rem;
+        border-radius: 20%;
+        border: grey solid 1px;
+        color:black;
+    }
+    
+
+.ButtonSeguir {
+    height: 30px;
+    width: 130px;
+    margin-top: 0px;
+    color:brown;
+    border: solid grey 2px;
+}
+
+/*css de Contacto*/
+
+.BackContacto {
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/_DSC0101B.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/*css de footer*/
+
+/*footer*/
+.footer {
+    margin-top: 50px;
+   background-color:blanchedalmond;
+    color: black;
+    width: 230px;
+
+}
